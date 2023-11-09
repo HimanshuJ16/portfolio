@@ -5,7 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project1 from "../../public/images/projects/1.jpg"
+import project1 from "../../public/images/projects/5.jpg"
 import project2 from "../../public/images/projects/2.jpg"
 import project3 from "../../public/images/projects/3.jpg"
 import project4 from "../../public/images/projects/4.jpg"
@@ -76,12 +76,12 @@ const projects = () => {
                     <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
                         <div className="col-span-12">
                             <FeaturedProject
-                            title="Portfolio Project"
+                            title="Canvas Project"
                             img={project1}
-                            summary="A feature-rich Portfolio Project using React, Tailwind CSS and Next JS. 
-                            It showcase one's skills, expertise, and accomplishments. You can easily tell a compelling story about your skills, growth, and expertise."
-                            link="https://himanshuj16.github.io/portfolio"
-                            github="https://github.com/HimanshuJ16/portfolio"
+                            summary="A animation-rich website using HTML, CSS, Gsap Library, Locomotive JS, Scroll Trigger & Canvas. 
+                            It use canvas and locomotive scroll trigger which gives a website a 3D look. (For best experience view in Desktop mode only)"
+                            link="https://himanshuj16.github.io/canvas-project/"
+                            github="https://github.com/HimanshuJ16/canvas-project"
                             type="Featured Project" 
                             />
                         </div>
