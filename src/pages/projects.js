@@ -9,6 +9,7 @@ import project1 from "../../public/images/projects/5.jpg"
 import project2 from "../../public/images/projects/2.jpg"
 import project3 from "../../public/images/projects/3.jpg"
 import project4 from "../../public/images/projects/4.jpg"
+import project5 from "../../public/images/projects/6.jpg"
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -76,12 +77,12 @@ const projects = () => {
                     <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
                         <div className="col-span-12">
                             <FeaturedProject
-                            title="Canvas Project"
-                            img={project1}
+                            title="Apple Vision Pro Project"
+                            img={project5}
                             summary="A animation-rich website using HTML, CSS, Gsap Library, Locomotive JS, Scroll Trigger & Canvas. 
                             It use canvas and locomotive scroll trigger which gives a website a 3D look. (For best experience view in Desktop mode only)"
-                            link="https://himanshuj16.github.io/canvas-project/"
-                            github="https://github.com/HimanshuJ16/canvas-project"
+                            link="https://himanshuj16.github.io/apple-vision-clone/"
+                            github="https://github.com/HimanshuJ16/apple-vision-clone"
                             type="Featured Project" 
                             />
                         </div>
@@ -99,13 +100,13 @@ const projects = () => {
                         </div>
                         <div className="col-span-6 sm:col-span-12">
                             <Project
-                            title="Pricing Page Project"
-                            img={project3}
+                            title="Canvas Project"
+                            img={project1}
                             summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                             It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
                             local currency."
-                            link="https://himanshuj16.github.io/pricing/"
-                            github="https://github.com/HimanshuJ16/pricing"
+                            link="https://himanshuj16.github.io/canvas-project/"
+                            github="https://github.com/HimanshuJ16/canvas-project"
                             type="Featured Project" 
                             />
                         </div>
@@ -121,13 +122,13 @@ const projects = () => {
                         </div>
                         <div className="col-span-6 sm:col-span-12">
                             <Project
-                            title="Crypto Screener Application"
-                            img={project1}
+                            title="Pricing Page Project"
+                            img={project3}
                             summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                             It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
                             local currency."
-                            link="/"
-                            github="/"
+                            link="https://himanshuj16.github.io/pricing/"
+                            github="https://github.com/HimanshuJ16/pricing"
                             type="Featured Project" 
                             />
                         </div>
