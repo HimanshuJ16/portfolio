@@ -4,10 +4,10 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useRef } from "react";
-import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
-import article2 from "../../public/images/articles/create loading screen in react js.jpg";
-import article3 from "../../public/images/articles/create modal component in react using react portals.png";
-import article4 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
+import article1 from "../../public/images/articles/1.png";
+import article2 from "../../public/images/articles/2.png";
+import article3 from "../../public/images/articles/3.png";
+import article4 from "../../public/images/articles/4.png";
 import article5 from "../../public/images/articles/smooth scrolling in reactjs.png";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -80,19 +80,19 @@ const articles = () => {
                     <AnimatedText text="Words Can Change The World! " className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"/>
                     <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
                         <FeaturedArticle 
-                        title="Build A Custom Pagination Component In Reactjs From Scratch"
-                        summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-                        Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
+                        title="Build A Custom Graphic Component In HTML From JavaScript"
+                        summary="Learn how to build a custom graphic component in HTML from scratch. 
+                        Follow this code to integrate canvas component in your upcoming projects."
                         time="9 min read"
-                        link="/"
+                        link="https://github.com/HimanshuJ16/canvas-code/blob/main/script.js"
                         img={article1}
                         />
                         <FeaturedArticle 
-                        title="Build A Custom Pagination Component In Reactjs From Scratch"
-                        summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-                        Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
+                        title="Build A Custom Smooth Scrolling Feature In HTML From Scratch"
+                        summary="Learn how to use locomotive JS in HTML from JavaScript for Smooth-Scrolling. 
+                        Follow this step-by-step guide to integrate Locomotive JS in your upcoming projects."
                         time="9 min read"
-                        link="/"
+                        link="https://github.com/locomotivemtl/locomotive-scroll"
                         img={article2}
                         />
                     </ul>
@@ -100,15 +100,15 @@ const articles = () => {
                     <ul>
                         <Article 
                             img={article3}
-                            title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-                            date="November 01, 2023"
-                            link="/"
+                            title="Download Images From Websites: Code & Steps here."
+                            date="November 14, 2023"
+                            link="https://github.com/HimanshuJ16/console-all-images/blob/main/download.js"
                         /> 
                         <Article 
                             img={article4}
-                            title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-                            date="November 01, 2023"
-                            link="/"
+                            title="Graphics From SheryJS: Learn More About SheryJS."
+                            date="November 14, 2023"
+                            link="https://github.com/aayushchouhan24/sheryjs"
                         /> 
                         <Article 
                             img={article5}
