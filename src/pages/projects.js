@@ -10,6 +10,7 @@ import project2 from "../../public/images/projects/2.jpg"
 import project3 from "../../public/images/projects/3.jpg"
 import project4 from "../../public/images/projects/4.jpg"
 import project5 from "../../public/images/projects/6.jpg"
+import project6 from "../../public/images/projects/7.jpg"
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -88,13 +89,13 @@ const projects = () => {
                         </div>
                         <div className="col-span-6 sm:col-span-12">
                             <Project
-                            title="Amazon Clone"
-                            img={project2}
+                            title="Animation Project"
+                            img={project6}
                             summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                             It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
                             local currency."
-                            link="https://himanshuj16.github.io/amazon-clone/"
-                            github="https://github.com/HimanshuJ16/amazon-clone"
+                            link="https://himanshuj16.github.io/animation-project/"
+                            github="https://github.com/HimanshuJ16/animation-project"
                             type="Featured Project" 
                             />
                         </div>
@@ -134,13 +135,13 @@ const projects = () => {
                         </div>
                         <div className="col-span-6 sm:col-span-12">
                             <Project
-                            title="Crypto Screener Application"
-                            img={project1}
+                            title="Amazon Clone"
+                            img={project2}
                             summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                             It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
                             local currency."
-                            link="/"
-                            github="/"
+                            link="https://himanshuj16.github.io/amazon-clone/"
+                            github="https://github.com/HimanshuJ16/amazon-clone"
                             type="Featured Project" 
                             />
                         </div>
