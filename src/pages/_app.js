@@ -1,3 +1,4 @@
+import Cursor from '@/components/Cursor';
 import Footer from '@/components/Footer';
 import NavBar from '@/components/NavBar';
 import '@/styles/globals.css';
@@ -21,6 +22,7 @@ export default function App({ Component, pageProps }) {
       </Head>
       <main className={`${montserrat.variable} font-mont bg-light dark:bg-dark w-full min-h-screen`}>
         <NavBar />
+        <Cursor />
         <AnimatePresence mode='wait'>
           <Component {...pageProps} />
         </AnimatePresence>
