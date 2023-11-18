@@ -11,6 +11,8 @@ import project3 from "../../public/images/projects/3.jpg"
 import project4 from "../../public/images/projects/4.jpg"
 import project5 from "../../public/images/projects/6.jpg"
 import project6 from "../../public/images/projects/7.jpg"
+import project7 from "../../public/images/projects/8.jpg"
+import project8 from "../../public/images/projects/9.jpg"
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -101,13 +103,13 @@ const projects = () => {
                         </div>
                         <div className="col-span-6 sm:col-span-12">
                             <Project
-                            title="Canvas Project"
-                            img={project1}
+                            title="UI/UX Project"
+                            img={project7}
                             summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                             It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
                             local currency."
-                            link="https://himanshuj16.github.io/canvas-project/"
-                            github="https://github.com/HimanshuJ16/canvas-project"
+                            link="https://himanshuj16.github.io/duo-studio/"
+                            github="https://github.com/HimanshuJ16/duo-studio"
                             type="Featured Project" 
                             />
                         </div>
@@ -123,13 +125,25 @@ const projects = () => {
                         </div>
                         <div className="col-span-6 sm:col-span-12">
                             <Project
-                            title="Pricing Page Project"
-                            img={project3}
+                            title="Loader Page Project"
+                            img={project8}
                             summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                             It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
                             local currency."
-                            link="https://himanshuj16.github.io/pricing/"
-                            github="https://github.com/HimanshuJ16/pricing"
+                            link="https://himanshuj16.github.io/abc-agency/"
+                            github="https://github.com/HimanshuJ16/abc-agency"
+                            type="Featured Project" 
+                            />
+                        </div>
+                        <div className="col-span-6 sm:col-span-12">
+                            <Project
+                            title="Canvas Project"
+                            img={project1}
+                            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+                            local currency."
+                            link="https://himanshuj16.github.io/canvas-project/"
+                            github="https://github.com/HimanshuJ16/canvas-project"
                             type="Featured Project" 
                             />
                         </div>
@@ -142,6 +156,18 @@ const projects = () => {
                             local currency."
                             link="https://himanshuj16.github.io/amazon-clone/"
                             github="https://github.com/HimanshuJ16/amazon-clone"
+                            type="Featured Project" 
+                            />
+                        </div>
+                        <div className="col-span-6 sm:col-span-12">
+                            <Project
+                            title="Pricing Page Project"
+                            img={project3}
+                            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+                            local currency."
+                            link="https://himanshuj16.github.io/pricing/"
+                            github="https://github.com/HimanshuJ16/pricing"
                             type="Featured Project" 
                             />
                         </div>
