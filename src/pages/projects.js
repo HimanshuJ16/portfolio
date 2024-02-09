@@ -13,6 +13,8 @@ import project5 from "../../public/images/projects/6.jpg"
 import project6 from "../../public/images/projects/7.jpg"
 import project7 from "../../public/images/projects/8.jpg"
 import project8 from "../../public/images/projects/9.jpg"
+import project9 from "../../public/images/projects/10.jpg"
+import project10 from "../../public/images/projects/11.jpg"
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -78,6 +80,41 @@ const projects = () => {
                 <Layout classname="pt-16">
                     <AnimatedText text="Imagination Trumps Knowledge!" className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"/>
                     <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+                        <div className="col-span-12">
+                            <FeaturedProject
+                            title="Apple Vision Pro Project"
+                            img={project5}
+                            summary="A animation-rich website using HTML, CSS, Gsap Library, Locomotive JS, Scroll Trigger & Canvas. 
+                            It use canvas and locomotive scroll trigger which gives a website a 3D look. (For best experience view in Desktop mode only)"
+                            link="https://himanshuj16.github.io/apple-vision-clone/"
+                            github="https://github.com/HimanshuJ16/apple-vision-clone"
+                            type="Featured Project" 
+                            />
+                        </div>
+                        <div className="col-span-6 sm:col-span-12">
+                            <Project
+                            title="NodeJs Project (Login System)"
+                            img={project9}
+                            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+                            local currency."
+                            link="https://intellicity.onrender.com/"
+                            github="https://github.com/HimanshuJ16/intellicity"
+                            type="Featured Project" 
+                            />
+                        </div>
+                        <div className="col-span-6 sm:col-span-12">
+                            <Project
+                            title="ReactJS Project"
+                            img={project10}
+                            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+                            local currency."
+                            link="https://himanshuj16.github.io/ochi/"
+                            github="https://github.com/HimanshuJ16/ochi"
+                            type="Featured Project" 
+                            />
+                        </div>
                         <div className="col-span-12">
                             <FeaturedProject
                             title="Apple Vision Pro Project"
