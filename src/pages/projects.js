@@ -86,7 +86,7 @@ const projects = () => {
                             <FeaturedProject
                             title="SaaS Website Builder"
                             img={project12}
-                            summary="A full enterprise level website using NextJs14, Tailwind CSS, Stripe Connect, Prisma & MySQL including features like
+                            summary="A Full Enterprise Level website using NextJs14, Tailwind CSS, Stripe Connect, Prisma & MySQL including features like
                             🏢 Agency and Sub accounts,
                             🌐 Unlimited funnel hosting,
                             🚀 Full Website & Funnel builder,
@@ -94,7 +94,7 @@ const projects = () => {
                             📊 Media Storage,
                             📂 Project management system,
                             ☀️ Light & Dark mode,
-                            📄 Functioning landing page"
+                            📄 Functioning landing page."
                             link="https://clinic-frontend-theta.vercel.app/"
                             github="https://github.com/HimanshuJ16/clinic-latest"
                             type="Featured Project" 
