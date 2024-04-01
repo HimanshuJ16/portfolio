@@ -16,6 +16,7 @@ import project8 from "../../public/images/projects/9.jpg"
 import project9 from "../../public/images/projects/10.jpg"
 import project10 from "../../public/images/projects/11.jpg"
 import project11 from "../../public/images/projects/12.jpg"
+import project12 from "../../public/images/projects/13.jpg"
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -81,6 +82,24 @@ const projects = () => {
                 <Layout classname="pt-16">
                     <AnimatedText text="Imagination Trumps Knowledge!" className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"/>
                     <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+                        <div className="col-span-12">
+                            <FeaturedProject
+                            title="SaaS Website Builder"
+                            img={project12}
+                            summary="A full enterprise level website using NextJs14, Tailwind CSS, Stripe Connect, Prisma & MySQL including features like
+                            🏢 Agency and Sub accounts,
+                            🌐 Unlimited funnel hosting,
+                            🚀 Full Website & Funnel builder,
+                            💰 Custom Dashboards,
+                            📊 Media Storage,
+                            📂 Project management system,
+                            ☀️ Light & Dark mode,
+                            📄 Functioning landing page"
+                            link="https://clinic-frontend-theta.vercel.app/"
+                            github="https://github.com/HimanshuJ16/clinic-latest"
+                            type="Featured Project" 
+                            />
+                        </div>
                         <div className="col-span-12">
                             <FeaturedProject
                             title="Doctor Appointment Booking Website"
