@@ -95,8 +95,8 @@ const projects = () => {
                             📂 Project management system,
                             ☀️ Light & Dark mode,
                             📄 Functioning landing page."
-                            link="https://clinic-frontend-theta.vercel.app/"
-                            github="https://github.com/HimanshuJ16/clinic-latest"
+                            link="https://himanshuj16.github.io/comingsoon/"
+                            github="https://himanshuj16.github.io/comingsoon/"
                             type="Featured Project" 
                             />
                         </div>
