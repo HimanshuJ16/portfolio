@@ -96,7 +96,7 @@ const projects = () => {
                             ☀️ Light & Dark mode,
                             📄 Functioning landing page."
                             link="https://himanshuj16.github.io/comingsoon/"
-                            github="https://himanshuj16.github.io/comingsoon/"
+                            github="https://github.com/HimanshuJ16/plura"
                             type="Featured Project" 
                             />
                         </div>
