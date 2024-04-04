@@ -17,6 +17,7 @@ import project9 from "../../public/images/projects/10.jpg"
 import project10 from "../../public/images/projects/11.jpg"
 import project11 from "../../public/images/projects/12.jpg"
 import project12 from "../../public/images/projects/13.jpg"
+import project13 from "../../public/images/projects/14.jpg"
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -100,8 +101,18 @@ const projects = () => {
                             type="Featured Project" 
                             />
                         </div>
-                        <div className="col-span-12">
-                            <FeaturedProject
+                        <div className="col-span-6 sm:col-span-12">
+                            <Project
+                            title="IPhone 15 Pro Project"
+                            img={project13}
+                            summary="A MERN Stack website Using ReactJs, Node Js, ExpressJs, MongoDB, JWT and Stripe payment gateway with modern UI/UX design. "
+                            link="https://iphone15pro-hazel.vercel.app/"
+                            github="https://github.com/HimanshuJ16/iphone15pro"
+                            type="Featured Project" 
+                            />
+                        </div>
+                        <div className="col-span-6 sm:col-span-12">
+                            <Project
                             title="Doctor Appointment Booking Website"
                             img={project11}
                             summary="A MERN Stack website Using ReactJs, Node Js, ExpressJs, MongoDB, JWT and Stripe payment gateway with modern UI/UX design. "
