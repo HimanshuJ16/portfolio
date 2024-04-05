@@ -18,6 +18,7 @@ import project10 from "../../public/images/projects/11.jpg"
 import project11 from "../../public/images/projects/12.jpg"
 import project12 from "../../public/images/projects/13.jpg"
 import project13 from "../../public/images/projects/14.jpg"
+import project14 from "../../public/images/projects/15.jpg"
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -113,6 +114,16 @@ const projects = () => {
                         </div>
                         <div className="col-span-6 sm:col-span-12">
                             <Project
+                            title="Video Conferencing App"
+                            img={project14}
+                            summary="A MERN Stack website Using ReactJs, Node Js, ExpressJs, MongoDB, JWT and Stripe payment gateway with modern UI/UX design. "
+                            link="https://yoom-six.vercel.app/"
+                            github="https://github.com/HimanshuJ16/yoom"
+                            type="Featured Project" 
+                            />
+                        </div>
+                        <div className="col-span-12">
+                            <FeaturedProject
                             title="Doctor Appointment Booking Website"
                             img={project11}
                             summary="A MERN Stack website Using ReactJs, Node Js, ExpressJs, MongoDB, JWT and Stripe payment gateway with modern UI/UX design. "
