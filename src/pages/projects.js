@@ -20,6 +20,8 @@ import project12 from "../../public/images/projects/13.jpg"
 import project13 from "../../public/images/projects/14.jpg"
 import project14 from "../../public/images/projects/15.jpg"
 import project15 from "../../public/images/projects/16.jpg"
+import project16 from "../../public/images/projects/17.jpg"
+import project17 from "../../public/images/projects/18.jpg"
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -233,6 +235,30 @@ const projects = () => {
                             local currency."
                             link="https://himanshuj16.github.io/canvas-project/"
                             github="https://github.com/HimanshuJ16/canvas-project"
+                            type="Featured Project" 
+                            />
+                        </div>
+                        <div className="col-span-6 sm:col-span-12">
+                            <Project
+                            title="Infosys Project"
+                            img={project16}
+                            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+                            local currency."
+                            link="https://himanshuj16.github.io/infosys/"
+                            github="https://github.com/HimanshuJ16/infosys"
+                            type="Featured Project" 
+                            />
+                        </div>
+                        <div className="col-span-6 sm:col-span-12">
+                            <Project
+                            title="Tesla Project"
+                            img={project17}
+                            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+                            local currency."
+                            link="https://himanshuj16.github.io/tesla/"
+                            github="https://github.com/HimanshuJ16/tesla"
                             type="Featured Project" 
                             />
                         </div>
