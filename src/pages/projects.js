@@ -92,21 +92,7 @@ const projects = () => {
                             <FeaturedProject
                             title="AI Powered Sales Assistant"
                             img={project18}
-                            summary="AI Powered Sales Assistant using NextJs15, Tailwind CSS, Stripe Connect, Prisma & PostgreSQL including features like
-                            🤖 Automated AI sales rep (AI chatbot)
-                            📅 Books appointments and processes payments
-                            💻 Usable on any website with a simple code
-                            🧠 Smart question linking
-                            💬 Real-time chat (manual/automated)
-                            🎨 Customizable interface
-                            💳 Integrates with Stripe for payments
-                            ✉️ Simple email marketing
-                            💰 Financial dashboard
-                            💾 Save visitor info as leads
-                            🔐 Custom login/signup with OTP
-                            📲 Secure file/image uploads
-                            🌓 Light/dark mode toggle
-                            🔒 Restrict features by plan."
+                            summary="An AI-powered chatbot designed to enhance customer engagement by providing customizable interactions. Corinna-AI leverages advanced natural language processing (NLP) to understand user queries and respond intelligently. It allows business owners to personalize the chatbot's functionality, including custom greetings, email collection, and direct chat redirection for a tailored user experience."
                             link="https://corinna-ai-saas.vercel.app/"
                             github="https://github.com/HimanshuJ16/corinna"
                             type="Featured Project" 
