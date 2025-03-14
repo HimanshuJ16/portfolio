@@ -100,7 +100,7 @@ const projects = () => {
                             📂 Project management system,
                             ☀️ Light & Dark mode,
                             📄 Functioning landing page."
-                            link="https://himanshuj16.github.io/comingsoon/"
+                            link="https://plurabuild.vercel.app/"
                             github="https://github.com/HimanshuJ16/plura"
                             type="Featured Project" 
                             />
