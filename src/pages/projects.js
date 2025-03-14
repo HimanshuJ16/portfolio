@@ -22,6 +22,7 @@ import project14 from "../../public/images/projects/15.jpg"
 import project15 from "../../public/images/projects/16.jpg"
 import project16 from "../../public/images/projects/17.jpg"
 import project17 from "../../public/images/projects/18.jpg"
+import project18 from "../../public/images/projects/19.jpg"
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -87,6 +88,30 @@ const projects = () => {
                 <Layout classname="pt-16">
                     <AnimatedText text="Imagination Trumps Knowledge!" className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"/>
                     <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+                        <div className="col-span-12">
+                            <FeaturedProject
+                            title="AI Powered Sales Assistant"
+                            img={project18}
+                            summary="AI Powered Sales Assistant using NextJs15, Tailwind CSS, Stripe Connect, Prisma & PostgreSQL including features like
+                            🤖 Automated AI sales rep (AI chatbot)
+                            📅 Books appointments and processes payments
+                            💻 Usable on any website with a simple code
+                            🧠 Smart question linking
+                            💬 Real-time chat (manual/automated)
+                            🎨 Customizable interface
+                            💳 Integrates with Stripe for payments
+                            ✉️ Simple email marketing
+                            💰 Financial dashboard
+                            💾 Save visitor info as leads
+                            🔐 Custom login/signup with OTP
+                            📲 Secure file/image uploads
+                            🌓 Light/dark mode toggle
+                            🔒 Restrict features by plan."
+                            link="https://corinna-ai-saas.vercel.app/"
+                            github="https://github.com/HimanshuJ16/corinna"
+                            type="Featured Project" 
+                            />
+                        </div>
                         <div className="col-span-12">
                             <FeaturedProject
                             title="SaaS Website Builder"
