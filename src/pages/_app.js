@@ -1,3 +1,4 @@
+import Chatbot from '@/components/Chatbot';
 import Cursor from '@/components/Cursor';
 import Footer from '@/components/Footer';
 import NavBar from '@/components/NavBar';
@@ -21,6 +22,7 @@ export default function App({ Component, pageProps }) {
         <link rel="shortcut icon" href="/11.jpg" type="image/x-icon" /> 
       </Head>
       <main className={`${montserrat.variable} font-mont bg-light dark:bg-dark w-full min-h-screen`}>
+        <Chatbot />
         <NavBar />
         <Cursor />
         <AnimatePresence mode='wait'>
