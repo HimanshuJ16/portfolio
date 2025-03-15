@@ -23,6 +23,7 @@ import project15 from "../../public/images/projects/16.jpg"
 import project16 from "../../public/images/projects/17.jpg"
 import project17 from "../../public/images/projects/18.jpg"
 import project18 from "../../public/images/projects/19.jpg"
+import project19 from "../../public/images/projects/20.jpg"
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -90,6 +91,23 @@ const projects = () => {
                     <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
                         <div className="col-span-12">
                             <FeaturedProject
+                            title="Tanker Management System"
+                            img={project19}
+                            summary="PhedTanker – A Full Enterprise-Level Tanker Fleet Management System built with Next.js 15, TypeScript, Prisma, PostgreSQL, Clerk, and React Native, featuring:
+                            ✅ District-Wise Role-Based Dashboard with access control
+                            📍 Real-Time Vehicle Tracking via mobile app & web
+                            🛠️ Booking & Trip Management with approval system
+                            📊 Custom Reports & Analytics for data-driven insights
+                            🛻 Driver App for managing assigned bookings & trips
+                            📂 Customer, Hydrant & Destination Management
+                            🚀 Deployed on Vercel with optimized performance (99 Lighthouse score)"
+                            link="https://phedtanker.vercel.app/"
+                            github="https://phedtanker.vercel.app/"
+                            type="Featured Project" 
+                            />
+                        </div>
+                        <div className="col-span-6 sm:col-span-12">
+                            <Project
                             title="AI Powered Sales Assistant"
                             img={project18}
                             summary="An AI-powered chatbot designed to enhance customer engagement by providing customizable interactions. Corinna-AI leverages advanced natural language processing (NLP) to understand user queries and respond intelligently. It allows business owners to personalize the chatbot's functionality, including custom greetings, email collection, and direct chat redirection for a tailored user experience."
@@ -98,8 +116,8 @@ const projects = () => {
                             type="Featured Project" 
                             />
                         </div>
-                        <div className="col-span-12">
-                            <FeaturedProject
+                        <div className="col-span-6 sm:col-span-12">
+                            <Project
                             title="SaaS Website Builder"
                             img={project12}
                             summary="A Full Enterprise Level website using NextJs14, Tailwind CSS, Stripe Connect, Prisma & MySQL including features like
