@@ -24,6 +24,9 @@ import project16 from "../../public/images/projects/17.jpg"
 import project17 from "../../public/images/projects/18.jpg"
 import project18 from "../../public/images/projects/19.jpg"
 import project19 from "../../public/images/projects/20.jpg"
+import project20 from "../../public/images/projects/21.png"
+import project21 from "../../public/images/projects/22.png"
+import project22 from "../../public/images/projects/23.png"
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -108,6 +111,16 @@ const projects = () => {
                         </div>
                         <div className="col-span-6 sm:col-span-12">
                             <Project
+                            title="E-Commerce Store"
+                            img={project21}
+                            summary="An AI-powered chatbot designed to enhance customer engagement by providing customizable interactions. Corinna-AI leverages advanced natural language processing (NLP) to understand user queries and respond intelligently. It allows business owners to personalize the chatbot's functionality, including custom greetings, email collection, and direct chat redirection for a tailored user experience."
+                            link="https://www.thevaulttstore.shop/"
+                            github="https://github.com/HimanshuJ16/the-vaultt-store"
+                            type="Featured Project" 
+                            />
+                        </div>
+                        <div className="col-span-6 sm:col-span-12">
+                            <Project
                             title="AI Powered Sales Assistant"
                             img={project18}
                             summary="An AI-powered chatbot designed to enhance customer engagement by providing customizable interactions. Corinna-AI leverages advanced natural language processing (NLP) to understand user queries and respond intelligently. It allows business owners to personalize the chatbot's functionality, including custom greetings, email collection, and direct chat redirection for a tailored user experience."
@@ -118,6 +131,26 @@ const projects = () => {
                         </div>
                         <div className="col-span-6 sm:col-span-12">
                             <Project
+                            title="AI Powered Interview Assistant"
+                            img={project20}
+                            summary="An AI-powered chatbot designed to enhance customer engagement by providing customizable interactions. Corinna-AI leverages advanced natural language processing (NLP) to understand user queries and respond intelligently. It allows business owners to personalize the chatbot's functionality, including custom greetings, email collection, and direct chat redirection for a tailored user experience."
+                            link="https://ai-prepwise.vercel.app/"
+                            github="https://github.com/HimanshuJ16/ai-interviewer"
+                            type="Featured Project" 
+                            />
+                        </div>
+                        <div className="col-span-6 sm:col-span-12">
+                            <Project
+                            title="Charging Station Management System"
+                            img={project22}
+                            summary="An AI-powered chatbot designed to enhance customer engagement by providing customizable interactions. Corinna-AI leverages advanced natural language processing (NLP) to understand user queries and respond intelligently. It allows business owners to personalize the chatbot's functionality, including custom greetings, email collection, and direct chat redirection for a tailored user experience."
+                            link="https://charging-station-gamma.vercel.app/"
+                            github="https://github.com/HimanshuJ16/charging-station"
+                            type="Featured Project" 
+                            />
+                        </div>
+                        <div className="col-span-12">
+                            <FeaturedProject
                             title="SaaS Website Builder"
                             img={project12}
                             summary="A Full Enterprise Level website using NextJs14, Tailwind CSS, Stripe Connect, Prisma & MySQL including features like
