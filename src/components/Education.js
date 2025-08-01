@@ -44,9 +44,15 @@ const Education = () => {
                         Intelligence."
                     />
                     <Details 
-                        type="Online Coursework"
-                        time="2022-present"
-                        place="Apna College And Coursera"
+                        type="Data Structures in Java"
+                        time="2024"
+                        place="Apna College"
+                        info="Completed data-structures coursework in advanced topics such as Data Structures and Algorithms."
+                    />
+                    <Details 
+                        type="Full Stack Web Development"
+                        time="2023"
+                        place="Apna College"
                         info="Completed web-development coursework in advanced topics such as ReactJS, NextJS 
                         and Database Integration."
                     />

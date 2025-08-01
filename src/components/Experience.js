@@ -37,54 +37,20 @@ const Experience = () => {
                 <motion.div style={{scaleY: scrollYProgress}} className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]" />
                 <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
                     <Details 
-                        position="Software Engineer"
-                        company="Google"
-                        companyLink="https://www.google.com/"
-                        time="2022-Present"
-                        address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's 
-                        search engine, including improving the accuracy and relevance of search results and 
-                        developing new tools for data analysis and visualization."
+                        position="Full Stack Engineer"
+                        company="The Vaultt Store"
+                        companyLink="https://www.thevaulttstore.shop/"
+                        time="July 2025"
+                        address="Remote"
+                        work="Worked on building and enhancing a full-featured e-commerce platform for The Vaultt Store, focusing on improving user experience, integrating secure payments, and automating customer engagement workflows."
                     />
                     <Details 
-                        position="Software Engineer"
-                        company="Google"
-                        companyLink="https://www.google.com/"
-                        time="2022-Present"
-                        address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's 
-                        search engine, including improving the accuracy and relevance of search results and 
-                        developing new tools for data analysis and visualization."
-                    />
-                    <Details 
-                        position="Software Engineer"
-                        company="Google"
-                        companyLink="https://www.google.com/"
-                        time="2022-Present"
-                        address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's 
-                        search engine, including improving the accuracy and relevance of search results and 
-                        developing new tools for data analysis and visualization."
-                    />
-                    <Details 
-                        position="Software Engineer"
-                        company="Google"
-                        companyLink="https://www.google.com/"
-                        time="2022-Present"
-                        address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's 
-                        search engine, including improving the accuracy and relevance of search results and 
-                        developing new tools for data analysis and visualization."
-                    />
-                    <Details 
-                        position="Software Engineer"
-                        company="Google"
-                        companyLink="https://www.google.com/"
-                        time="2022-Present"
-                        address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's 
-                        search engine, including improving the accuracy and relevance of search results and 
-                        developing new tools for data analysis and visualization."
+                        position="Full Stack Engineer"
+                        company="Jamuna Foundation"
+                        companyLink="https://www.jamunafoundation.com/"
+                        time="June 2025"
+                        address="New Delhi, IN"
+                        work="Developed and optimized the Jamuna Foundation’s official website and centralized internship portal, implementing automation workflows that improved operational efficiency and reduced administrative workload by 60%."
                     />
                 </ul>
             </div>
